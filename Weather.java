@@ -13,7 +13,7 @@ public class Weather {
         //Imprime el resultado
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the temperature in degrees Celsius: ");
+        System.out.print("Introduzca la temperatura en grados Celsius:");
         int temp = scanner.nextInt();
 
         if (temp < 0) {
