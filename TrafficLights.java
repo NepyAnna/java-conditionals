@@ -8,7 +8,7 @@ public class TrafficLights {
         //Si es rojo imprime en la terminal: ¡¡¡Para!!!
         //Si es otro color imprime en la terminal: El semáforo está dañado
 
-        String currentLight = "blue";
+        String currentLight = "green";
 
         switch (currentLight) {
             case "green":
