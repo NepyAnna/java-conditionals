@@ -91,11 +91,11 @@ public class Quiz {
         }
 
         if (points < 5) {
-            System.out.println(String.format("Tu puntaje : %f. Buena suerte la próxima vez!", points));
+            System.out.printf("Tu puntaje : %f. Buena suerte la próxima vez!%n", points);
         } else if (points >= 5 && points < 15) {
-            System.out.println(String.format("Tu puntaje : %f. No lo has hecho mal!", points));
+            System.out.printf("Tu puntaje : %f. No lo has hecho mal!%n", points);
         } else if (points >= 15) {
-            System.out.println(String.format("Tu puntaje : %f. Tú si que sabes mucho!", points));
+            System.out.printf("Tu puntaje : %f. Tú si que sabes mucho!%n", points);
         }
     }
 }
